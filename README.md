@@ -1,11 +1,9 @@
-# 🌦️ Munich Hava Durumu Analizi
+## 🌦️ Munich Hava Durumu Analizi
 
-# Bu proje, Münih’in günlük hava durumu verilerini analiz etmek, görselleştirmek ve raporlamak için hazırlanmıştır.  
-# Amaç, yağış ve kar miktarlarını inceleyerek hava trendlerini ve olağan dışı değerleri belirlemektir.
+## Bu proje, Münih’in günlük hava durumu verilerini analiz etmek, görselleştirmek ve raporlamak için hazırlanmıştır.  
+## Amaç, yağış ve kar miktarlarını inceleyerek hava trendlerini ve olağan dışı değerleri belirlemektir.
+##  📌 Projede Yapılanlar
 
-# ============================================================
-# 📌 Projede Yapılanlar
-# ============================================================
 
 ### ✔ Veri Yükleme  
 CSV veri seti Pandas ile okunur, tarih sütunu datetime formatına çevrilir ve eksik değerler 0 ile doldurulur.
@@ -24,9 +22,7 @@ CSV veri seti Pandas ile okunur, tarih sütunu datetime formatına çevrilir ve 
 
 Bu analizler, Münih’in yağış ve kar dağılımı hakkında genel bir bakış sağlar ve meteorolojik araştırmalar için temel oluşturur.
 
-# ============================================================
 # ✔ Görselleştirme ve Yorumlar
-# ============================================================
 
 #### ☔ Günlük Yağış  
 ![Daily Precipitation](daily_precipitation.png)  
@@ -53,9 +49,7 @@ Günlük kar miktarları çizgi grafiği ile gösterilmiştir.
 - Bu aykırılar genellikle kısa süreli ama yoğun yağışları temsil eder.  
 - Meteorolojik araştırmalar veya şehir planlaması için kritik veriler sunar.
 
-# ============================================================
 # 📝 Raporlama
-# ============================================================
 
 Kod sonunda **Report/rapor.txt** oluşturulur. Raporda detaylı analiz yer alır:
 
@@ -67,4 +61,3 @@ Kod sonunda **Report/rapor.txt** oluşturulur. Raporda detaylı analiz yer alır
 - **Yorum:** Grafikleri yorumlayarak, yaz ve kış aylarındaki yağış farklılıkları, ekstrem günler ve mevsimsel trendler detaylı bir şekilde raporda açıklanır.  
 - Bu rapor, şehir planlaması, meteorolojik analiz ve araştırmalar için güçlü bir referans niteliği taşır.
 
-# ============================================================
