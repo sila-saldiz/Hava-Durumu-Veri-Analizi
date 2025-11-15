@@ -21,7 +21,7 @@ os.makedirs("Report", exist_ok=True)   # rapor buraya
 # AŞAMA 1: VERİ YÜKLEME ve HAZIRLIK
 # ------------------------------------------------------------
 
-df = pd.read_csv("/Users/user/Downloads/ecommerce-sales-dataset/munich.csv")     # CSV ile .py aynı klasörde olmalı
+df = pd.read_csv("buraya dosya yolu girilecek")     # CSV ile .py aynı klasörde olmalı
 
 if df.shape[1] == 1:
     df = df.iloc[:, 0].str.split(";", expand=True)
