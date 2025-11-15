@@ -1,0 +1,14 @@
+=== MUNICH WEATHER ANALYSIS REPORT ===
+
+Toplam veri noktası: 153
+
+Toplam yağış: 526.10 mm
+En yağışlı gün: 2024-06-01 — 78.4 mm
+
+Toplam kar: 2.49 cm
+En karlı gün: 2024-03-24 — 1.01 cm
+
+Aykırı yağış sayısı: 3
+
+Grafikler output klasörüne kaydedildi.
+Rapor başarıyla oluşturuldu.
