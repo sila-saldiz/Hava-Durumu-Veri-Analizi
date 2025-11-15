@@ -61,3 +61,24 @@ Kod sonunda **Report/rapor.txt** oluşturulur. Raporda detaylı analiz yer alır
 - **Yorum:** Grafikleri yorumlayarak, yaz ve kış aylarındaki yağış farklılıkları, ekstrem günler ve mevsimsel trendler detaylı bir şekilde raporda açıklanır.  
 - Bu rapor, şehir planlaması, meteorolojik analiz ve araştırmalar için güçlü bir referans niteliği taşır.
 
+- ## 🚀 Projeyi Çalıştırma
+
+```bash
+# 1. Repo’yu klonlayın:
+git clone https://github.com/sila‑saldiz/Hava‑Durumu‑Veri‑Analizi.git
+cd Hava‑Durumu‑Veri‑Analizi
+
+# 2. Gerekli kütüphaneleri yükleyin:
+pip install pandas numpy matplotlib
+
+# 3. Veri dosyasını uygun klasöre koyun veya dosya yolunu güncelleyin:
+# Örneğin:
+munich.csv
+
+# 4. Ana script’i çalıştırın:
+python munich_weather_analysis.py
+
+# 5. Çıktılar:
+# Grafikler → output/ klasörü
+# Rapor → Report/rapor.txt
+
